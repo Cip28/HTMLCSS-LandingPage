@@ -143,15 +143,14 @@ font-size:18px;
     max-width: 100%;
 }
 .hero{
-    background-image: url("hero.jpg");
-    background-size: cover;
+    background-image: url("../img/hero.jpg");
     height:400px;
-    background-position-x: 50%;
-    background-position-y: 50%;
+    background-size: cover;
+    background-position: center center;
     text-transform: uppercase;
 }
 
-.hero div{
+.hero h1{
 position: relative;
 left:-30px;
 }
@@ -188,7 +187,7 @@ left:-30px;
     text-align:center;
 }
 
-.banner-text > div :last-child{
+.banner-text > div:last-child{
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
